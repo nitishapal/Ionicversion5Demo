@@ -24,3 +24,50 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+#wave { 
+
+    clip-path: url(#clipPath); 
+
+    background-color: #ff6f35; 
+
+    background-size: cover; 
+
+    height: 50%; 
+
+    width: 100%; 
+
+} 
+
+.logoClass {
+    width: 33vw;
+    margin: auto;
+    display: block;
+    position: absolute !important;
+    top: 15%; //top: 8%; Wifido logo position
+    right: 33%;
+  }
+
+
+#input-form {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+
+    ion-item {
+        border-bottom: 1.2px solid #d7dade;
+        ion-label {
+            color: #313131 !important;
+            font-size: 1em !important;
+            font-family: 'Helvetica', ‘sans-serif’ !important;
+            font-weight: bold !important;
+        }
+
+        ion-input {
+            margin-top: 15px;
+            --placeholder-font-weight: 400 !important;
+            --placeholder-font-style: italic !important;
+            --placeholder-opacity: 0.4 !important;
+        }
+    }
+}
